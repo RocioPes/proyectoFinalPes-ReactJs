@@ -1,0 +1,120 @@
+body {
+    background-color:#fefae0 ;
+
+}
+
+.navbar, .navbar-category{
+    background-color: #dda15e;
+    cursor: pointer;
+    text-decoration: none;
+    font-family:'Gill Sans';
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    color: black;
+    
+    }
+
+.navbar-category{
+transition: transform 0.3s ease-in-out;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.navbar-category:hover{
+    transform: scale(1.05);
+    
+}
+
+h1 {
+    margin-top: 40px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Pristina;
+}
+
+.title-detail{
+    margin-top: 40px;
+    font-size: 50px;
+    text-align: left;
+    font-family: Pristina;
+}
+h2 {
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+    font-family: Pristina;
+}
+
+.text{
+    font-family:'Gill Sans';
+    font-size: 20px  
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 16px;
+}
+
+.card{
+    margin-top: 20px;
+    }
+
+.card-img{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-img:hover{
+    transform: scale(1.05);
+}
+
+.card-title {
+text-align: center;
+font-size: 16px;
+}
+
+.card-description{
+    text-align: center;
+    font-size: 14px;
+}
+.button-style{
+    padding: 10px;
+    align-content: center;
+  background-color: #66594a;
+    border: 1px solid #ddd;
+    border-radius: 8px;    
+    
+    }
+
+.button-cart{
+    background-color: #8a7e71;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    color: white;
+    font-family:'Gill Sans';
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.button-detail{
+    background-color: #ca945a;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    color: white;
+    font-family:'Gill Sans';
+    cursor: pointer;
+    font-size: 15px;
+    
+}
